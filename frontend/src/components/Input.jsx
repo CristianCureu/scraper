@@ -7,7 +7,7 @@ const Input = ({ type, name, placeholder, value, onChange, disabled }) => {
       value={value}
       onChange={onChange}
       disabled={disabled}
-      className="my-4 border-gray-700 py-2"
+      className="m-4 border-gray-400 border-2 rounded-md p-2 w-60"
     />
   );
 };
